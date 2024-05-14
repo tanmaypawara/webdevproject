@@ -1,0 +1,98 @@
+.services {
+    display: flex;
+    margin: 25px 5px;
+    background-color: rgb(162, 162, 162);
+    padding: 20px;
+}
+
+
+
+.service-1 {
+    background-image: url("pic1.jpg");
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    border-radius: 4px;
+    margin: 20px;
+    font-family: Georgia;
+    background-color: #B4B4B8;
+    transition: all 0.4s;
+    color: white;
+    font-weight: bold;
+}
+
+.service-2 {
+    background-image: url("pic2.jpg");
+    padding: 20px;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    margin: 20px;
+    font-family: Georgia;
+    background-color: #B4B4B8;
+    transition: all 0.4s;
+    color: white;
+    font-weight: bold;
+}
+
+.service-1:hover {
+    transform: translateY(5px);
+
+}
+
+.service-2:hover {
+    transform: translateY(5px);
+}
+.location {
+    display: flex;
+    background-color: rgb(162, 162, 162);
+    padding: 2px;
+
+}
+
+
+
+.mumbai {
+    background-color: rgb(129, 129, 237);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    transition: all 0.4s;
+    border-radius: 4px;
+    margin: 20px 4px;
+    font-family: Georgia;
+    color: white;
+    
+}
+
+.mumbai:hover{
+    transform: translateY(5px);
+}
+
+.surat {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    background-color: #de9575;
+    padding: 10px;
+    transition: all 0.4s;
+    border-radius: 4px;
+    margin: 20px 4px;
+    font-family: Georgia;
+    color: white;
+}
+.surat:hover{
+    transform: translateY(5px);
+}
+
+.chennai {
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    background-color: #a2dc8c;
+    padding: 10px;
+    transition: all 0.4s;
+    border-radius: 4px;
+    margin: 20px 4px;
+    font-family: Georgia;
+    color: white;
+}
+
+.chennai:hover{
+    transform: translateY(5px);
+}

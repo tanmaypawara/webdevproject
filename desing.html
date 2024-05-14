@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DESIGN</title>
+    <!-- <link rel="stylesheet" href="design.css"> -->
+    <!-- <link rel="stylesheet" href="design.css"> -->
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Baloo+Bhai+2:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    :root {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    .container {
+
+        background-color: rgba(194, 190, 190, 0.779);
+    }
+
+    .containermain {
+        margin: 20px 5px 20px 5px;
+        height: 40vh;
+    }
+
+    div p {
+        text-align: justify;
+    }
+
+    nav {
+        /* margin: 20px 30px; */
+        padding: 20px 0px;
+        background: white;
+        background-color: whitesmoke;
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        align-content: center;
+        margin-top: 7px;
+        margin-bottom: 0px;
+
+    }
+
+    a {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: black;
+        cursor: pointer;
+        text-decoration: solid;
+        font-weight: 50px;
+
+
+    }
+
+    a:hover {
+        color: gray;
+        /* text-decoration: underline; */
+    }
+
+    a:visited {
+        color: none;
+    }
+
+    .display {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        /* padding: 10px 0px; */
+        justify-content: space-between;
+        /* justify-content: space-around; */
+        height: 45vh;
+    }
+
+   
+
+    .disimg1 {
+        height: 35vh;
+        width: 38vw;
+        /* margin: 0px 20px 0px 0px; */
+        position: relative;
+        /* opacity: 0.8; */
+    }
+
+    h4 {
+        position: absolute;
+        top: 13vh;
+        left: 10%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 2rem;
+        letter-spacing: 4px;
+    }
+
+    p.txt {
+        position: absolute;
+        top: 22vh;
+        left: 19.5%;
+        transform: translate(-50%, -50%);
+        width: 30vw;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+
+    }
+
+    .disimg2 {
+        height: 35vh;
+    }
+
+    .disimg3 {
+        height: 35vh;
+    }
+
+    .container2 {
+        background-color: whitesmoke;
+        /* margin-top: 20px; */
+        /* padding-top: 2px; */
+    }
+
+    .box {
+        margin: 0px 30px 20px 30px;
+        height: auto;
+        padding-bottom: 20px;
+        /* background-color: #9d9595cb; */
+        background-color: #cac9c9;
+        border-radius: 4px;
+        margin: 0px 30px 20px 30px;
+
+    }
+
+    h3 {
+        padding: 20px 20px 10px 20px;
+    }
+
+    p {
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    .imgbht {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: 20px;
+        
+        /* justify-content: flex-start; */
+    }
+    p.bht{
+        padding-left: 0px;
+        padding-top: 5px;
+    }
+
+    .imgkit {
+        /* display: flex;
+        flex-direction: row; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: 20px;
+        /* padding-left: 20px; */
+        /* justify-content: flex-start; */
+        /* padding: 10px 0px; */
+    }
+
+    .imgliv {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: 20px;
+
+    }
+
+    .imgbed {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: 20px;
+
+    }
+
+    .imgout {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: 20px;
+
+    }
+</style>
+
+<body>
+    <div class="container">
+
+        <div class="containermain">
+            <div class="display">
+                <div class="dsimg">
+
+
+                    <img class="disimg1" src="img1m.jpg" alt="img1">
+
+                    <h4>DESIGNS</h4>
+                    <P class="txt">We're obsessed with floor tiles and how they define a room. They're so versatile,
+                        whether you're
+                        looking to create a statement with a feature floor or a simple foundation to build upon.</P>
+
+                </div>
+
+                <div class="dsimg">
+
+                    <img class="disimg2" src="img2m.jpg" alt="img2">
+                </div>
+
+                <div class="dsimg">
+
+                    <img class="disimg3" src="img3m.jpg" alt="img3">
+                </div>
+            </div>
+
+        </div>
+        <nav>
+
+            <a href="#bathroom">Bathroom</a>
+            <a href="#Kitchen">Kitchen & Dining</a>
+            <a href="#Living">Living Rooms</a>
+            <a href="#BedRoom">BedRoom</a>
+            <a href="#Outdoors">Outdoors</a>
+        </nav>
+        <div class="container2">
+            <div class="bathroom box">
+               <section id="bathroom">
+
+                   <h3>BATHROOM</h3>
+               </section>
+                <p>Your day begins here. Let it kickstart with elegance and luxury. Get tile design ideas for your
+                    bathroom!</p>
+                <div class="imgbht">
+                    <div class="img1">
+
+                        <img src="bath1.jpg" alt="">
+                        <p class="bht"> Marble Effect Porcelain Tiles</p>
+                    </div>
+                    <div class="img2">
+
+                        <img src="bath2.jpg" alt="">
+                        <p class="bht">Bringing Home Class…</p>
+                    </div>
+                    <div class="img3">
+
+                        <img src="bath3.jpg" alt="">
+                        <p class="bht">Say Hello To Freshness</p>
+                    </div>
+                    <div class="img4">
+
+                        <img src="bath4.jpg" alt="">
+                        <p class="bht">Unmatched Luxury</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="Kitchen box">
+                <section id="Kitchen">
+
+                    <h3>KITCHEN AND DINING</h3>
+                </section>
+                <p>It's not just a kitchen, but a dream, when you beautify it with our Corus Averio tiles!</p>
+                <div class="imgkit">
+                     <div class="img1">
+
+                        <img src="kit1.jpg" alt="">
+                        <p class="bht"> NITCO | Made In Italy - Your Ideal Choice!</p>
+                    </div>
+                    <div class="img2">
+
+                        <img src="kit2.jpg" alt="">
+                        <p class="bht">Not Just A Kitchen!</p>
+                    </div>
+                    <div class="img3">
+
+                        <img src="kit3.jpg" alt="">
+                        <p class="bht">Made With Love</p>
+                    </div>
+                    <div class="img4">
+
+                        <img src="kit4.jpg" alt="">
+                        <p class="bht">As Delicious As You!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Living box">
+                <section id="Living">
+
+                    <h3>LIVING</h3>
+                </section>
+                <p>Let your living room exude similar warmth like every other room in your abode. Our Xylos Stella tiles
+                    from the Dura Digi collection make sure you truly feel at home. Like literally!</p>
+                <div class="imgliv">
+                     <div class="img1">
+
+                        <img src="liv1.jpg" alt="">
+                        <p class="bht"> Bring Home The Elegance Of Italy</p>
+                    </div>
+                    <div class="img2">
+
+                        <img src="liv2.jpg" alt="">
+                        <p class="bht">Rugged Beauty</p>
+                    </div>
+                    <div class="img3">
+
+                        <img src="liv3.jpg" alt="">
+                        <p class="bht">A Class Apart!</p>
+                    </div>
+                    <div class="img4">
+
+                        <img src="liv4.jpg" alt="">
+                        <p class="bht">Beauty At It's Peak</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="BedRoom box">
+                <section id="BedRoom">
+
+                    <h3>BEDROOM</h3>
+                </section>
+                <p>Routine is boring. Add a dash of drama and some fun to your bedroom with our Pixel Grey tiles. You
+                    can thank us later!</p>
+                <div class="imgbed">
+                     <div class="img1">
+
+                        <img src="bed1.jpg" alt="">
+                        <p class="bht">A Touch Of Warmth</p>
+                    </div>
+                    <div class="img2">
+
+                        <img src="bed2.jpg" alt="">
+                        <p class="bht">Bringing Home Class…</p>
+                    </div>
+                    <div class="img3">
+
+                        <img src="bed3.jpg" alt="">
+                        <p class="bht">Say Hello To Freshness</p>
+                    </div>
+                    <div class="img4">
+
+                        <img src="bed4.jpg" alt="">
+                        <p class="bht">Unmatched Luxury</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Outdoors box">
+                <section id="Outdoors">
+
+                    <h3>OUTDOORS</h3>
+                </section>
+                <p>Enjoy an enhanced look for your favourite balcony with our Asterix Beige, Mocha and Décor tiles!</p>
+                <div class="imgout">
+                     <div class="img1">
+
+                        <img src="out1.jpg" alt="">
+                        <p class="bht"> Understated Elegance</p>
+                    </div>
+                    <div class="img2">
+
+                        <img src="out2.jpg" alt="">
+                        <p class="bht">A Perfect Harmony</p>
+                    </div>
+                    <div class="img3">
+
+                        <img src="out3.jpg" alt="">
+                        <p class="bht">Of Refreshing Outdoors</p>
+                    </div>
+                    <div class="img4">
+
+                        <img src="out4.jpg" alt="">
+                        <p class="bht">A Class Apart!</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
+
+
